@@ -75,4 +75,4 @@ class MyCustomInput(InputMask):
     mask = {'mask': '999-111'}
 ```
 
-For more rules, take a look at `meioMask documentation <http://www.meiocodigo.com/projects/meiomask/>`_.
+For more rules, take a look at `inputmask documentation <https://github.com/RobinHerbots/Inputmask>`_.
