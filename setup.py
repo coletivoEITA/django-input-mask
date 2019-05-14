@@ -7,9 +7,9 @@ VERSION = __import__('input_mask').__version__
 setup(
     name='django-input-mask',
     version=VERSION,
-    url='http://github.com/caioariede/django-input-mask',
-    author='Caio Ariede',
-    author_email='caio.ariede@gmail.com',
+    url='http://github.com/coletivoEITA/django-input-mask',
+    author='Coletivo EITA',
+    author_email='coletivo@eita.org.br',
     description='JavaScript input masks for Django',
     license='MIT',
     zip_safe=False,
@@ -33,7 +33,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'Django>=1.7,<2.0',
+        'Django>=1.7,<=2.2',
         'six',
     ],
     test_suite="runtests.runtests",
